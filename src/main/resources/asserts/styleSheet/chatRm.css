@@ -1,0 +1,14 @@
+#sendPane{
+    -fx-cursor: hand;
+}
+#sendPane:pressed{
+    -fx-background-color: white;
+}
+#txtEmail , #txtPassword , #txtRePassword , #txtUserName{
+    -fx-font-family: "ubuntu";
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+    -fx-background-color:white;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}

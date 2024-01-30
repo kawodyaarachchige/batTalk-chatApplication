@@ -1,0 +1,65 @@
+#loginPane{
+    -fx-background-color: #f2cb2d;
+    -fx-background-radius: 50;
+    -fx-border-color: white;
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-font-family: "Bodoni 72 Bold";
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+#loginPane:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#loginPane:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+#backpane{
+    -fx-background-color: transparent;
+    -fx-font-family: "ubuntu";
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+#backpane:hover{
+    -fx-text-fill: #f2cb2d;
+}
+#backpane:pressed{
+    -fx-text-fill: white;
+}
+#wordpane2:hover{
+    -fx-text-fill: #f2cb2d;
+}
+#txtUserName{
+    -fx-font-family: "ubuntu";
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+    -fx-background-color:white;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+#txtPassword{
+    -fx-font-family: "ubuntu";
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+    -fx-background-color:white;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+#forgetpwdPane{
+    -fx-font-family: "ubuntu";
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+#forgetpwdPane:hover{
+    -fx-text-fill: #f2cb2d;
+}
+#forgetpwdPane:pressed{
+    -fx-text-fill: white;
+}

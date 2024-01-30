@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="signPane" prefHeight="648.0" prefWidth="459.0" style="-fx-background-color: black; -fx-border-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.SignupFormController">
+   <children>
+      <ImageView fitHeight="95.0" fitWidth="98.0" layoutX="179.0" layoutY="17.0">
+         <image>
+            <Image url="@../asserts/icon/batTalkLogo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUserName" layoutX="65.0" layoutY="348.0" prefHeight="39.0" prefWidth="333.0" promptText="Input Your User Name" stylesheets="@../asserts/styleSheet/signUp.css" />
+      <Text fill="#fffefe" layoutX="87.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up To BatTalk">
+         <font>
+            <Font name="BatFont" size="43.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtEmail" layoutX="64.0" layoutY="397.0" prefHeight="39.0" prefWidth="333.0" promptText="Input Yor Email Address" stylesheets="@../asserts/styleSheet/signUp.css" />
+      <Button fx:id="backpane" layoutX="9.0" layoutY="602.0" mnemonicParsing="false" onAction="#btnBackOnAction" stylesheets="@../asserts/styleSheet/loginPage.css" text="Back" />
+      <Button fx:id="signUpPane" layoutX="173.0" layoutY="558.0" mnemonicParsing="false" onAction="#btnSignUpOnAction" prefHeight="43.0" prefWidth="122.0" stylesheets="@../asserts/styleSheet/signUp.css" text="Sign Up" />
+      <PasswordField fx:id="txtPassword" layoutX="65.0" layoutY="447.0" prefHeight="39.0" prefWidth="333.0" promptText="Input Strong Password" stylesheets="@../asserts/styleSheet/signUp.css" />
+      <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="354.0" layoutY="354.0" opacity="0.32">
+         <image>
+            <Image url="@../asserts/icon/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="352.0" layoutY="450.0" opacity="0.34">
+         <image>
+            <Image url="@../asserts/icon/pwd.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="356.0" layoutY="404.0" opacity="0.24">
+         <image>
+            <Image url="@../asserts/icon/mail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="70.0" layoutY="610.0" opacity="0.57">
+         <image>
+            <Image url="@../asserts/icon/backarrow.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="txtRePassword" layoutX="65.0" layoutY="500.0" prefHeight="39.0" prefWidth="333.0" promptText="Re Enter Your Password" stylesheets="@../asserts/styleSheet/signUp.css" />
+      <AnchorPane layoutX="141.0" layoutY="187.0" prefHeight="133.0" prefWidth="177.0" style="-fx-border-color: white;">
+         <children>
+            <ImageView fx:id="imgUser" fitHeight="123.0" fitWidth="169.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="54.0" fitWidth="49.0" layoutX="313.0" layoutY="284.0" onMouseClicked="#imgCameraOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/icons8-camera-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="353.0" layoutY="504.0" opacity="0.34">
+         <image>
+            <Image url="@../asserts/icon/pwd.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="648.0" prefWidth="459.0" style="-fx-background-color: black; -fx-border-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="95.0" fitWidth="98.0" layoutX="174.0" layoutY="27.0">
+         <image>
+            <Image url="@../asserts/icon/batTalkLogo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f5f3f3" layoutX="105.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login to BatTalk">
+         <font>
+            <Font name="BatFont" size="43.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtUserName" layoutX="67.0" layoutY="385.0" prefHeight="36.0" prefWidth="328.0" promptText="Input Your Email" stylesheets="@../asserts/styleSheet/loginPage.css" />
+      <Button fx:id="backpane" layoutX="5.0" layoutY="603.0" mnemonicParsing="false" onAction="#btnBackOnAction" stylesheets="@../asserts/styleSheet/loginPage.css" text="Back" />
+      <Button fx:id="loginPane" layoutX="169.0" layoutY="526.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="43.0" prefWidth="122.0" stylesheets="@../asserts/styleSheet/loginPage.css" text="Log In" />
+      <PasswordField fx:id="txtPassword" layoutX="67.0" layoutY="445.0" prefHeight="36.0" prefWidth="328.0" promptText="Input Password" stylesheets="@../asserts/styleSheet/loginPage.css" />
+      <Label fx:id="forgetpwdPane" layoutX="283.0" layoutY="487.0" onMouseClicked="#txtForgetPwdOnAction" stylesheets="@../asserts/styleSheet/loginPage.css" text="Forget Password" textFill="#fffbfb">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="343.0" layoutY="388.0" opacity="0.25">
+         <image>
+            <Image url="@../asserts/icon/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="346.0" layoutY="447.0" opacity="0.29">
+         <image>
+            <Image url="@../asserts/icon/pwd.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="56.0" layoutY="610.0" opacity="0.53">
+         <image>
+            <Image url="@../asserts/icon/backarrow.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="145.0" layoutY="202.0" prefHeight="147.0" prefWidth="169.0" style="-fx-border-color: white;">
+         <children>
+            <ImageView fx:id="imgUser" fitHeight="153.0" fitWidth="178.0" layoutX="2.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="44.0" fitWidth="56.0" layoutX="323.0" layoutY="326.0" onMouseClicked="#imgCameraOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icon/icons8-camera-50.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

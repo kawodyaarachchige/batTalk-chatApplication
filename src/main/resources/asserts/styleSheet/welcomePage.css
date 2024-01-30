@@ -1,0 +1,53 @@
+#loginPane{
+    -fx-background-color: #f2cb2d;
+    -fx-background-radius: 50;
+    -fx-border-color: white;
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-font-family: "Bodoni 72 Bold";
+    -fx-font-size: 24;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+#loginPane:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#loginPane:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-font-family: "Bodoni 72 Bold";
+    -fx-font-size: 24;
+    -fx-text-fill: black;
+}
+
+#signUppane{
+    -fx-background-color: #f2cb2d;
+    -fx-background-radius: 50;
+    -fx-border-color: white;
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-font-family: "Bodoni 72 Bold";
+    -fx-font-size: 24;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+#signUppane:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#signUppane:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-font-family: "Bodoni 72 Bold";
+    -fx-font-size: 24;
+    -fx-text-fill: black;
+}
