@@ -40,7 +40,7 @@ public class SignupFormController {
             stage1.setTitle("Login Form");
             stage1.centerOnScreen();
     }
-    public void btnSignUpOnAction(ActionEvent actionEvent) {
+    public void btnSignUpOnAction(ActionEvent actionEvent){
         if(!txtUserName.getText().isEmpty() && !txtEmail.getText().isEmpty() && !txtPassword.getText().isEmpty() && !txtRePassword.getText().isEmpty()){
             if(Pattern.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$", txtEmail.getText())){
                 if(Pattern.matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$", txtPassword.getText())) {
