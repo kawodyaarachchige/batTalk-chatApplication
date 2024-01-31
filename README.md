@@ -10,10 +10,6 @@ Technologies :
         MySQL,
         SMTP (API)
 
-
-
-
-
 ## Features
 
 - 🦇User can create a account.
@@ -46,8 +42,6 @@ Forget Password Form
 
 - Tharushi Kawodya 💻☕️
 
-
-
 ![Logo](https://i.imgur.com/tUtYrBF.png)
 
 
@@ -65,8 +59,8 @@ Forget Password Form
 
 ✅Start the server
 
-
-
+© 2024 All Right Reserved Designed By Tharushi Kawodya
+This project is licensed under the MIT license.
 
 ## Feedback
 
