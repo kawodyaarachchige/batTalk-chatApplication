@@ -36,7 +36,7 @@ public class WelcomeFormController {
         Scene scene1 = new Scene(load);
         Stage stage1 =  (Stage)loginPane.getScene().getWindow();
         stage1.setScene(scene1);
-        stage1.setTitle("Signup Form");
+        stage1.setTitle("Login Form");
         stage1.centerOnScreen();
         stage1.show();
 
