@@ -46,7 +46,7 @@ public class ForgetPasswordController {
             stage1.setScene(scene1);
             stage1.setTitle("Login Form");
             stage1.centerOnScreen();
-        }else{
+        }else {
             if(txtCode.getText().equals(String.valueOf(LoginFormController.oneTimePassword))){
                 boolean isPasswordValid = Pattern.matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$", txtPassword.getText());
                 if(isPasswordValid){
