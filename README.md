@@ -17,7 +17,7 @@ Technologies :
 - 🦇User can also reset his/her password.
 - 🦇Real-time communication using Java Sockets.
 - 🦇Simple server-client architecture.
-- 🦇The messages can contain text, Unicode characters,gif,emojis, and images.
+- 🦇The messages can contain text,gif,emojis, and images.
 
 
 ## Screenshots
